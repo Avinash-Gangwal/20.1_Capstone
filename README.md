@@ -37,7 +37,7 @@ The analysis aims to highlight significant predictors of churn and evaluate the 
 
 #### Outline of Project  
 
-- [Link to Python Code](capstone.py)
+- [Link to Python Code](capstone.ipynb)
 
 ##### Contact and Further Information  
 For questions or additional information about this project, please feel free to reach out.
