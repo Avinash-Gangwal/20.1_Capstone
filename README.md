@@ -1,44 +1,81 @@
 # 20.1_Capstone
-### Telecom Customer Churn Prediction Capstone Project
+# Capstone Project: Predicting Customer Churn in the Telecom Industry
 
 **Author**  
 @Avinash
 
-#### Executive Summary  
-This capstone project focuses on predicting customer churn in the telecommunications industry by analyzing customer demographics, service usage patterns, and billing information. Using the Telecom Customer dataset from Kaggle, we perform exploratory data analysis (EDA), feature engineering, and apply machine learning algorithms to identify key factors influencing churn and develop a predictive model.
+---
 
-#### Rationale  
-Customer churn is a critical issue for telecom companies as it directly impacts revenue and customer retention strategies. By understanding the drivers of churn, businesses can proactively address customer concerns, optimize services, and improve customer satisfaction.
+## Executive Summary
 
-#### Research Question  
+This project aims to analyze customer churn in the telecom industry using machine learning techniques. By leveraging exploratory data analysis (EDA) and predictive modeling, the project identifies key factors influencing customer churn and provides actionable insights to improve retention strategies.
+
+### Problem Statement
 How can we develop a predictive model to identify the most effective factors influencing customer churn in the telecom industry, and what are the key drivers of customer retention?
 
-#### Data Sources  
-- **Telecom Customer Dataset (Kaggle)**: This dataset contains customer information such as demographics, service usage statistics, billing details, and a binary "Churn" target variable.
+### Rationale
+Customer churn is a significant challenge for telecom companies. Understanding why customers leave enables businesses to take proactive measures to retain them, thereby reducing costs and improving profitability.
 
-#### Methodology  
-The project involves:
-1. **Exploratory Data Analysis (EDA)**: To understand data characteristics and relationships between variables.
-2. **Data Cleaning & Preprocessing**: Handling missing values, encoding categorical variables, and scaling numerical features.
-3. **Feature Engineering**: Creating meaningful predictors for churn analysis.
-4. **Machine Learning Models**:
-   - Logistic Regression
-   - Decision Tree Classifier
-   - Random Forest Classifier
-5. **Model Evaluation**: Using metrics like accuracy, precision, recall, F1-score, and confusion matrix.
+---
 
-#### Results  
-The analysis aims to highlight significant predictors of churn and evaluate the performance of various machine learning models. Insights will be visualized for better interpretation.
+## Research Questions
+1. What are the primary factors that influence customer churn in the telecom industry?
+2. How can predictive models identify customers at risk of churning?
+3. What actionable insights can be derived to enhance customer retention?
 
-#### Next Steps  
-- Deploy predictive models into production environments.
-- Experiment with advanced algorithms like Gradient Boosting or Neural Networks.
-- Develop targeted campaigns based on model insights.
+---
 
-#### Outline of Project  
+## Dataset
+The dataset contains customer demographics, service usage patterns, billing information, and contract details. The target variable is `Churn`, which indicates whether a customer has left the service.
 
-- [Link to Python Code](capstone.ipynb)
+### Key Features:
+- **Demographics**: Senior Citizen, Partner, Dependents
+- **Service Usage**: Internet Service, Streaming TV/Movies, Tech Support
+- **Billing Information**: Monthly Charges, Total Charges, Payment Method
+- **Contract Details**: Tenure, Contract Type, Paperless Billing
 
-##### Contact and Further Information  
-For questions or additional information about this project, please feel free to reach out.
+---
 
+## Methodology
+
+### Data Cleaning and Exploratory Data Analysis (EDA)
+- Addressed missing values and removed duplicates.
+- Conducted outlier analysis and feature engineering.
+- Visualized relationships between variables using libraries like Matplotlib and Seaborn.
+
+### Modeling
+- Supervised Learning Algorithms:
+  - Logistic Regression
+  - Random Forests
+  - XGBoost
+- Evaluation Metrics:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-Score
+
+---
+
+## Results
+Key findings include:
+1. Customers with month-to-month contracts and higher monthly charges are more likely to churn.
+2. Tenure is inversely related to churn—longer-tenured customers are less likely to leave.
+3. Random Forest achieved the highest accuracy among tested models.
+
+---
+
+## Next Steps
+1. Deploy the best-performing model for real-time churn prediction.
+2. Develop a dashboard for visualizing churn trends.
+3. Conduct A/B testing to validate retention strategies.
+
+---
+
+## Project Organization
+
+- [Link to Notebook](capstone.ipynb)
+
+---
+
+## Contact and Further Information
+For questions or additional support, please contact Avinash.
